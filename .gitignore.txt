@@ -1,0 +1,4 @@
+node_modules/
+.arduino-create/
+*.db
+.env

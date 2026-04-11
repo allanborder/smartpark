@@ -1,0 +1,10 @@
+Quick demo flow to test everything works
+
+Open http://localhost:3000 in your browser
+Enter a plate number and select vehicle type → click Log Entry
+Note the ticket ID shown
+Go to DB Browser → Browse Data → Tickets → click Refresh — you'll see the new row
+Go back to dashboard → enter that ticket ID → click Process Exit
+Check DB Browser again — the ticket now shows closed status with a fee
+
+That's your full system working end to end!
